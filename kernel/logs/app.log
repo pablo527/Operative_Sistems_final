@@ -1,0 +1,7 @@
+2022-06-01 02:30:41,131 INFO o.s.b.StartupInfoLogger [restartedMain] Starting KernelApplication using Java 17.0.1 on paul with PID 22992 (D:\Paul\University\SO\final_SO\kernel\build\classes\java\main started by pablo in D:\Paul\University\SO\final_SO\kernel) 
+2022-06-01 02:30:41,227 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default" 
+2022-06-01 02:30:47,975 INFO o.s.b.StartupInfoLogger [restartedMain] Started KernelApplication in 9.709 seconds (JVM running for 17.411) 
+2022-06-01 02:32:11,495 ERROR c.e.k.c.ControllerExceptionHandler [http-nio-8001-exec-1] / by zero 
+2022-06-01 02:32:11,655 ERROR c.e.k.c.ControllerExceptionHandler [http-nio-8001-exec-1] {"data":"/ by zero","id":"d40a13fa-7ab6-4c2e-9029-6736e3b2172d","cmd":null,"src":null,"dst":null,"msg":"An unexpected error has occurred in the application"} 
+2022-06-01 02:32:11,656 INFO c.e.k.c.ControllerExceptionHandler [http-nio-8001-exec-1] PEPE GANGA 
+2022-06-01 20:46:19,631 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default" 
