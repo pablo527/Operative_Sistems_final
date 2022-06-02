@@ -1,0 +1,15 @@
+logging:
+  level:
+    org:
+      hibernate: ${LOG_LEVEL_SPRING:info}
+      springframework:
+        web: ${LOG_LEVEL_SPRING:info}
+    web: ${LOG_LEVEL_SPRING:info}
+  config: classpath:log4j2.properties
+spring:
+  application:
+    name: kernel
+  cloud:
+    config:
+      enabled: 'true'
+      uri: http://localhost:8081
